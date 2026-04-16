@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/server.js",
     "dev": "nodemon server/server.js",
-    "build": "echo 'Build completed'"
+    "build": "mkdir -p public && cp -r src/. public/"
   },
   "dependencies": {
     "axios": "^1.8.3",
